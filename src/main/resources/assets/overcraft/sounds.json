@@ -1,0 +1,7 @@
+{
+  "tactical_visor_activate": {
+    "sounds": [
+      "overcraft:tactical_visor_activate"
+    ]
+  }
+}
