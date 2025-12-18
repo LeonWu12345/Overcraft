@@ -22,7 +22,7 @@ import java.util.List;
 public class GunItem extends Item {
 
     // ====== Weapon Tunables ======
-    public static final int MAG_SIZE = 25;
+    public static final int MAG_SIZE = 30;
     public static final int FIRE_INTERVAL_TICKS = 2;
     public static final int RELOAD_TICKS = 30;        // 1.5s
     public static final int ULT_RELOAD_TICKS = 10;    // 0.5s
@@ -169,9 +169,9 @@ public class GunItem extends Item {
                     DAMAGE
             );
 
-            if (didHurt && player instanceof ServerPlayer sp) {
-                Soldier76Ultimate.addChargeFromDamage(sp, DAMAGE);
-            }
+//            if (didHurt && player instanceof ServerPlayer sp) {
+//                Soldier76Ultimate.addChargeFromDamage(sp, DAMAGE);
+//            }
         }
 
         level.playSound(null, player.blockPosition(),

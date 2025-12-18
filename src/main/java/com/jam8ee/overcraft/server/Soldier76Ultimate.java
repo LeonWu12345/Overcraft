@@ -17,7 +17,7 @@ public final class Soldier76Ultimate {
     private Soldier76Ultimate() {}
 
     // ===== Tactical Visor =====
-    public static final int ULT_DURATION_TICKS = 120; // 6s
+    public static final int ULT_DURATION_TICKS = 160; // 8s
 
     // ===== Charge rules (你要的规则) =====
     // 220 点伤害 = 100%
